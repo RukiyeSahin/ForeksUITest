@@ -1,0 +1,81 @@
+@objects 
+  portfoy  xpath  //*[@id="tradeContainer"]
+  header  xpath  //*[@class="wHead ng-scope"]
+  varlik-li  xpath  //*[@frks-id="pContainerPorfolioTab_click"]
+  emir-li  xpath  //*[@frks-id="pContainerEmirTab_click"]
+  hesap-li  xpath  //*[@frks-id="pContainerHesapTab_click"]
+  body  xpath  //*[@class="wMain ng-scope"]
+  right-tab  xpath  //*[@class="tabsPort"]
+  right-tab-hisse  xpath  //*[@frks-id="tradeTabHisse"]
+  right-tab-viop  xpath  //*[@frks-id="tradeTabViop"]
+  right-tab-other  xpath  //*[@frks-id="tradeTabOther"]
+  broker  xpath  //*[@class="leftIn ng-scope"]
+  excel  xpath  //*[@frks-id="table-to-excel"]
+  sembol-add  xpath  //*[@id="tradeContainer"]//*[@frks-id="open-column-settings"]
+  refresh  xpath  //*[@id="refreshPortfolio"]
+
+= Header =
+  @on *
+    portfoy:
+      width 691px 
+      height 191px
+    header:
+      inside portfoy 0px top, 169px bottom, 4px right, 0px left
+      width 687px 
+      height 22px
+    varlik-li:
+      inside header 0px top, 0px bottom, 609px right, 0px left
+      aligned horizontally all emir-li
+      width 78px 
+      height 24px
+      text is "Varlıklarım"
+    emir-li:
+      inside header 0px top, 0px bottom, 523px right, 98px left
+      aligned horizontally all hesap-li
+      width 66px 
+      height 22px
+      text is "Emirlerim"
+    hesap-li:
+      inside header 0px top, 0px bottom, 423px right, 184px left
+      aligned horizontally all emir-li
+      width 80px 
+      height 22px
+      text is "Hesap Özeti"
+    body:
+      inside portfoy 32px top, 5px bottom, 4px right, 0px left
+      width 687px 
+      height 154px
+    right-tab:
+      inside portfoy 34px top, 5px bottom, 629px right, 2px left
+      width 60px 
+      height 152px
+    right-tab-hisse:
+      inside right-tab 0px top, 114px bottom, 0px right, 0px left
+      aligned vertically all right-tab-viop
+      width 60px 
+      height 38px
+    right-tab-viop:
+      inside right-tab 38px top, 76px bottom, 0px right, 0px left
+      aligned vertically all right-tab-other
+      width 60px 
+      height 38px
+    right-tab-other:
+      inside right-tab 76px top, 38px bottom, 0px right, 0px left
+      aligned vertically all right-tab-hisse
+      width 60px 
+      height 38px
+    excel:
+      inside header 0px top, 2px bottom, 50px right, 617px left
+      aligned horizontally all sembol-add
+      width 20px 
+      height 20px
+    sembol-add:
+      inside header 0px top, 2px bottom, 25px right, 642px left
+      aligned horizontally all refresh
+      width 20px 
+      height 20px
+    refresh:
+      inside header 0px top, 2px bottom, 0px right, 667px left
+      aligned horizontally all excel
+      width 20px 
+      height 20px

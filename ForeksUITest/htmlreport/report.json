@@ -1,0 +1,129 @@
+{
+  "tests" : [ {
+    "name" : "1440x821 Register test desktop",
+    "startedAt" : 1655212528434,
+    "endedAt" : 1655212604307,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 89,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 91
+    },
+    "testId" : "1-1440x821-register-test-desktop",
+    "duration" : 75873,
+    "failed" : true
+  }, {
+    "name" : "1440x821 Login test desktop",
+    "startedAt" : 1655212604307,
+    "endedAt" : 1655212737400,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 101,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 101
+    },
+    "testId" : "2-1440x821-login-test-desktop",
+    "duration" : 133093,
+    "failed" : false
+  }, {
+    "name" : "1440x821 Homepage test desktop",
+    "startedAt" : 1655212737400,
+    "endedAt" : 1655213050395,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 463,
+      "errors" : 11,
+      "warnings" : 0,
+      "total" : 474
+    },
+    "testId" : "3-1440x821-homepage-test-desktop",
+    "duration" : 312995,
+    "failed" : true
+  }, {
+    "name" : "1440x727 Register test  desktop",
+    "startedAt" : 1655213050395,
+    "endedAt" : 1655213121894,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 90,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 90
+    },
+    "testId" : "4-1440x727-register-test-desktop",
+    "duration" : 71499,
+    "failed" : false
+  }, {
+    "name" : "1440x727 Login test desktop",
+    "startedAt" : 1655213121894,
+    "endedAt" : 1655213252476,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 100,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 100
+    },
+    "testId" : "5-1440x727-login-test-desktop",
+    "duration" : 130582,
+    "failed" : false
+  }, {
+    "name" : "1440x727 Homepage test desktop",
+    "startedAt" : 1655213252476,
+    "endedAt" : 1655213566086,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 458,
+      "errors" : 15,
+      "warnings" : 0,
+      "total" : 473
+    },
+    "testId" : "6-1440x727-homepage-test-desktop",
+    "duration" : 313610,
+    "failed" : true
+  }, {
+    "name" : "1368x721 Register test desktop",
+    "startedAt" : 1655213566086,
+    "endedAt" : 1655213637059,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 109,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 109
+    },
+    "testId" : "7-1368x721-register-test-desktop",
+    "duration" : 70973,
+    "failed" : false
+  }, {
+    "name" : "1368x721 Login test desktop",
+    "startedAt" : 1655213637059,
+    "endedAt" : 1655213801537,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 101,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 101
+    },
+    "testId" : "8-1368x721-login-test-desktop",
+    "duration" : 164478,
+    "failed" : false
+  }, {
+    "name" : "1368x721 Homepage test desktop",
+    "startedAt" : 1655213801537,
+    "endedAt" : 1655214128504,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 454,
+      "errors" : 13,
+      "warnings" : 0,
+      "total" : 467
+    },
+    "testId" : "9-1368x721-homepage-test-desktop",
+    "duration" : 326967,
+    "failed" : true
+  } ]
+}

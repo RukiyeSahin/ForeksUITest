@@ -1,0 +1,130 @@
+@@table myDevicesForeks
+  | deviceName |   size   | tags    |
+  | desktop    | 1440x821 | desktop|
+
+
+@@parameterized using myDevicesForeks
+1440x821 Register test ${deviceName}
+    https://payment-interface-test.foreks.com/user/register  ${size}
+        wait 30s
+        check 1440x821/register.gspec --include "${tags}"
+        wait 30s
+
+@@parameterized using myDevicesForeks
+1440x821 Login test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 30s
+        check 1440x821/login.gspec --include "${tags}"
+        wait 40s
+
+
+@@parameterized using myDevicesForeks
+1440x821 Homepage test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 30s
+        run login.js
+        wait 20s
+        run popup.js
+        wait 20s
+        check 1440x821/homepage.gspec --include "${tags}"
+        wait 30s        
+        run symbolSearch.js
+        wait 20s
+        check 1440x821/symbolSearch.gspec  
+        wait 30s
+        run symbolSearchExit.js
+        wait 20s
+        run tableClick.js
+        wait 20s
+        check 1440x821/tableClick.gspec
+        run portfoy.js
+        wait 20s
+        check 1440x821/portfoy.gspec --include "${tags}"
+        wait 30s
+
+
+@@table myDevicesForeks2
+  | deviceName |   size   | tags    |
+  | desktop    | 1440x727 | desktop |
+
+@@parameterized using myDevicesForeks2
+1440x727 Register test  ${deviceName}
+    https://payment-interface-test.foreks.com/user/register  ${size}
+        wait 30s
+        check 1440x727/register.gspec --include "${tags}"
+        wait 30s
+
+@@parameterized using myDevicesForeks2
+1440x727 Login test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 30s
+        check 1440x727/login.gspec --include "${tags}"
+        wait 40s
+
+@@parameterized using myDevicesForeks2
+1440x727 Homepage test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 30s
+        run login.js
+        wait 20s
+        run popup.js
+        wait 20s
+        check 1440x727/homepage.gspec --include "${tags}"
+        wait 30s        
+        run symbolSearch.js
+        wait 20s
+        check 1440x727/symbolSearch.gspec  
+        wait 30s
+        run symbolSearchExit.js
+        wait 20s
+        run tableClick.js
+        wait 20s
+        check 1440x727/tableClick.gspec
+        run portfoy.js
+        wait 20s
+        check 1440x727/portfoy.gspec --include "${tags}"
+        wait 30s
+
+
+@@table myDevicesForeks3
+  | deviceName |   size   | tags    |
+  | desktop    | 1368x721 | desktop |
+
+
+@@parameterized using myDevicesForeks3
+1368x721 Register test ${deviceName}
+    https://payment-interface-test.foreks.com/user/register  ${size}
+        wait 30s
+        check 1368x721/register.gspec --include "${tags}"
+        wait 30s
+
+@@parameterized using myDevicesForeks3
+1368x721 Login test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 40s
+        check 1368x721/login.gspec --include "${tags}"
+        wait 50s
+
+@@parameterized using myDevicesForeks3
+1368x721 Homepage test ${deviceName}
+    http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ ${size}
+        wait 30s
+        run login.js
+        wait 20s
+        run popup.js
+        wait 20s
+        check 1368x721/homepage.gspec --include "${tags}"
+        wait 30s        
+        run symbolSearch.js
+        wait 20s
+        check 1368x721/symbolSearch.gspec  
+        wait 30s
+        run symbolSearchExit.js
+        wait 20s
+        run 1368x721/tableClick.js
+        wait 20s
+        check 1368x721/tableClick.gspec
+        run portfoy.js
+        wait 20s
+        check 1368x721/portfoy.gspec --include "${tags}"
+        wait 30s

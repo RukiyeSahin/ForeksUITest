@@ -1,0 +1,156 @@
+@objects
+  sayfa  xpath  //*[@class="login"]
+  login-container  xpath  //*[@class="login-container"]
+  sol-cerceve  xpath  //*[@class="left-side"]
+  logo  xpath  //*[@class="landing-logo"]
+  sol-orta  xpath  //*[@id="page"]/ui-view/div/div/div[1]/div[1]/div[1]/div[2]
+  sol-baslik  xpath  //*[@class="content1"]
+  orta-yazi  xpath  //*[@class="content2"]
+  alt-yazi  xpath  //*[@class="content3"]
+  link  xpath   //*[@class="content4"]
+  sag-cerceve  xpath  //*[@class="box"]
+  sag-baslik  xpath  //*[@class="title"]
+  register  xpath  (//*[@class="ng-scope"])[4]
+  login-form  xpath  //*[@class="loginForm ng-scope"]
+  username-input  xpath  //*[@frks-id="loginUserName"]
+  username-text  xpath  (//*[@class="placeholder ng-scope"])[1]
+  password-input  xpath  //*[@frks-id="loginPassword"]
+  password-text  xpath  (//*[@class="placeholder ng-scope"])[2]
+  benihatirla-password  xpath  (//*[@class="row"])[1]
+  beni-hatirla  xpath  //*[@class="row risk remember"]
+  sifremi-unuttum  xpath  //*[@frks-id="loginBtnPasswordReset"]
+  sifre-degistir  xpath  //*[@frks-id="loginBtnPasswordRenew"]
+  giris-btn  xpath  //*[@frks-id='home-login-btn']
+  gizlilik-btn  xpath  //*[@frks-id='home-agreement-btn']
+  kaydol-text  xpath  //*[@class="register"]
+
+= Header =
+  @on *
+    sol-cerceve:
+      inside login-container 100px top, 100px bottom, 981px right, 201px left
+      width 243px 
+      height 600px
+      left-of sag-cerceve 260px 
+    logo:
+      inside sol-cerceve 0px top, 541px bottom, 0px right, 0px left
+      width 243px 
+      height 59px
+      image file ../image/foreks_login_logo.png, error 1926px 
+      above sol-baslik 95 px
+    sol-orta:
+      inside sol-cerceve 154px top, 61px bottom, 0px right, 0px left
+      width 243px 
+      height 385px   
+    sol-baslik:
+      inside sol-cerceve 154px top, 421px bottom, 0px right, 0px left
+      width 243px 
+      height 25px
+      above orta-yazi 10 px
+      text is "Foreks Trader Web"
+    orta-yazi:
+      inside sol-cerceve 189px top, 211px bottom, 0px right, 0px left
+      width 243px 
+      height 200px
+      above alt-yazi 20 px
+      text is "Kurulum yapmadan, her cihazdan finans merkezinize bağlanın." 
+    alt-yazi:
+      inside sol-cerceve 409px top, 91px bottom, 0px right, 0px left
+      width 243px 
+      height 100px
+      above link 10 px 
+      text is "Foreks Trader Web tamamen web teknolojisi ile geliştirildiği için her türlü tarayıcıya sahip cihazda anında ve sorunsuz bir şekilde çalışmaktadır."
+    link:
+      inside sol-cerceve 519px top, 61px bottom, 0px right, 0px left
+      width 243px 
+      height 20px
+      below alt-yazi 10px
+      text is "Foreks Trader Web Nedir?"
+    sag-cerceve:
+      inside login-container 140px top, 140px bottom, 201px right, 704px left
+      width 520px 
+      height ~520px
+      right-of sol-cerceve 260px
+    login-form:
+      inside sag-cerceve 50px top, 50px bottom, 50px right, 50px left
+      width 420px 
+      height 420px
+      right-of sol-cerceve 310px
+    register:
+      inside login-form 399px top, 1px bottom, 59px right, 59px left
+      width 302px 
+      height 20px
+    sag-baslik:
+      inside login-form 0px top, 390px bottom, 0px right, 0px left
+      width ~420px 
+      height ~30px
+      above username-text 65 to 75 px 
+      above username-input 56 px
+    username-text:
+      width ~181px 
+      height ~18px
+      text is "Kullanıcı Adı / Eposta Adresi"
+      above password-text 40px
+    username-input:
+      inside login-form 86px top, 284px bottom, 0px right, 0px left
+      width ~420px 
+      height ~50px
+      below sag-baslik 50 to 60 px 
+      above password-input 10px
+      aligned vertically all password-input
+    password-text:
+      width ~31px 
+      height ~18px
+      text is "Şifre"
+    password-input:
+      inside login-form 146px top, 224px bottom, 0px right, 0px left
+      width 420px 
+      height 50px
+      below username-input 5 to 10px
+      above benihatirla-password 10 to 20px
+      aligned vertically all username-input
+    benihatirla-password:
+      inside login-form 211px top, 154px bottom, 0px right, 0px left
+      width 420px 
+      height 55px
+      below password-input 10 to 15px   
+    beni-hatirla:
+      inside login-form 226px top, 169px bottom, 282px right, 10px left
+      width 128px 
+      height 25px
+      left-of sifremi-unuttum 18px 
+    sifremi-unuttum:
+      inside login-form 228px top, 172px bottom, 153px right, 156px left
+      width 111px 
+      height 20px
+      right-of beni-hatirla 18px 
+      left-of sifre-degistir 21px 
+    sifre-degistir:
+      inside login-form 228px top, 172px bottom, 11px right, 288px left
+      width 121px 
+      height 20px
+      right-of sifremi-unuttum 21px 
+    giris-btn:
+      inside login-form 265px top, 105px bottom, 0px right, 0px left
+      width 420px 
+      height 50px
+      above gizlilik-btn 5 to 10px 
+      below password-input 60 to 70px 
+      css background-color is  "rgba(240, 197, 41, 1)"
+      aligned vertically all password-input
+    gizlilik-btn:
+      inside login-form 324px top, 46px bottom, 0px right, 0px left
+      width 420px 
+      height 50px
+      css background-color is "rgba(240, 240, 240, 1)" 
+      aligned vertically all giris-btn
+    kaydol-text:
+      inside login-form 399px top, 1px bottom, 0px right, 0px left
+      width ~420px 
+      height ~20px
+    
+
+
+
+   
+
+

@@ -1,0 +1,133 @@
+@objects  
+    header  xpath  //*[@class="loginHeader"]
+    header-nav  xpath   //*[@class="btmNav row"]
+    header-right  xpath   //*[@class="right"]
+    header-right-text  xpath   //*[@class="headText"]
+    logo  xpath  //*[@class="logo"]
+    body-box  xpath   //*[@class="box registerBox"]
+    body  xpath  //*[@class="login"]
+    left-box  xpath  //*[@class="message-area"]
+    right-box  xpath  //*[@class="content-area"]
+    register-form  xpath  //*[@id="registerForm"]
+    register-title  xpath  //*[@id="registerForm"]/h2
+    email  xpath  //*[@id="email"]
+    name  xpath  //*[@id="name"]
+    surname  xpath  //*[@id="surname"]
+    phone  xpath  //*[@id="registerPhone"]
+    security-confirmation  xpath  (//*[@class="formBottom"])[1]
+    email-confirmation  xpath  (//*[@class="formBottom"])[2]
+    call-confirmation  xpath   (//*[@class="formBottom"])[3]    
+    submit-btn  xpath  //*[@id="submitbtn"]
+    login-text-btn  xpath   //*[@class="textBtn"]
+= Header =
+    @on *
+      header:
+        width 1425px 
+        height 81px
+        aligned vertically all body
+        near body 29px top 
+      header-nav:
+        inside header 0px top, 1px bottom, 0px right, 0px left
+        width 1425px 
+        height 80px
+      header-right:
+        inside header-nav 20px top, 20px bottom, 53px right, 1053px left
+        width 319px 
+        height 40px
+        right-of logo 838px
+      header-right-text:
+        inside header-right 0px top, 0px bottom, 0px right, 0px left
+        width 319px 
+        height 40px
+        text is "Hesabınız zaten var mı? Buradan giriş yap." 
+      logo:
+        inside header-nav 20px top, 19px bottom, 1210px right, 52px left
+        width 163px 
+        height 41px
+        inside  header 20px top, 20px bottom, 1210px right,  52px left
+        image file ../image/logo2.png, error 141px 
+        left-of header-right 838px 
+= Body =
+      body:
+        width 1425px 
+        height 647px
+        aligned vertically all header
+        near header 29px bottom 
+      body-box:
+        inside body 0px top, 0px bottom, 133px right, 132px left
+        width 1160px 
+        height 647px        
+      left-box :
+        inside body-box 1px top, 1px bottom, 580px right, 1px left
+        width 579px 
+        height 645px
+        left-of right-box 0px
+      right-box:
+        inside body-box 1px top, 1px bottom, 1px right, 580px left
+        width 579px 
+        height 645px
+        right-of left-box 0px
+      register-form:
+        inside right-box 44px top, 45px bottom, 40px right, 40px left
+        width 499px 
+        height 556px
+      register-title:
+        width 499px 
+        height 36px
+        text is "Ücretsiz Foreks Trader Hesabını Oluştur"
+      email:
+        inside  register-form 76px top, 430px bottom, 0px right, 0px left
+        width 499px 
+        height 50px
+        above name 10 to 20 px 
+        aligned vertically all name
+      name:
+        inside  register-form 136px top, 370px bottom, 0px right, 0px left
+        width 499px 
+        height 50px
+        above surname 10 to 20 px 
+        aligned vertically all surname
+      surname:
+        inside  register-form 196px top, 310px bottom, 0px right, 0px left
+        width 499px 
+        height 50px
+        above phone 10 to 20 px 
+        aligned vertically all phone
+      phone:
+        inside  register-form 256px top, 250px bottom, 0px right, 0px left
+        width 499px 
+        height 50px
+        above security-confirmation 10 to 20 px 
+        aligned vertically all submit-btn
+      submit-btn:
+        inside  register-form 400px top, 106px bottom, 0px right, 0px left
+        width 499px 
+        height ~50px
+        above login-text-btn 10 to 20 px 
+        aligned vertically all security-confirmation
+        css color is  "rgba(0, 0, 0, 1)"
+        css background-color is  "rgba(240, 197, 41, 1)" 
+      security-confirmation:
+        inside  register-form 316px top, 216px bottom, 0px right, 0px left
+        width 499px 
+        height 24px
+        above email-confirmation 10 to 20 px 
+        aligned vertically all email-confirmation
+      email-confirmation:
+        inside  register-form 355px top, 161px bottom, 0px right, 0px left
+        width 499px 
+        height 40px
+        above call-confirmation 10 to 20 px 
+        aligned vertically all call-confirmation
+      call-confirmation:
+        inside  register-form 409px top, 107px bottom, 0px right, 0px left
+        width 499px 
+        height 40px
+        aligned vertically all login-text-btn
+      login-text-btn:
+        inside  register-form 460px top, 74px bottom, 0px right, 0px left
+        width 499px 
+        height ~21px
+        below submit-btn 10 to 20 px
+        aligned vertically all email
+        

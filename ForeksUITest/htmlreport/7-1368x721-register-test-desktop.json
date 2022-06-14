@@ -1,0 +1,3085 @@
+{
+  "testId" : "7-1368x721-register-test-desktop",
+  "name" : "1368x721 Register test desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "https://payment-interface-test.foreks.com/user/register  1368x721",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "wait 30s",
+        "status" : "info",
+        "time" : 1655213572492,
+        "type" : "node"
+      }, {
+        "name" : "check 1368x721/register.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: 1368x721/register.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1655213606833,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "1368x721/register.gspec",
+              "lineNumber" : 25
+            },
+            "objects" : [ {
+              "name" : "header",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 28
+                },
+                "name" : "width 1353px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1353px",
+                  "realDistance" : "1353px"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 29
+                },
+                "name" : "height 81px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "81px",
+                  "realDistance" : "81px"
+                } ],
+                "highlight" : [ "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "aligned vertically all body",
+                "highlight" : [ "header", "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "near body 29px top",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "header", "body" ]
+              } ]
+            }, {
+              "name" : "header-nav",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "inside header 0px top, 1px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "header-nav", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 34
+                },
+                "name" : "width 1353px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1353px",
+                  "realDistance" : "1353px"
+                } ],
+                "highlight" : [ "header-nav" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "height 80px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-nav",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "80px",
+                  "realDistance" : "80px"
+                } ],
+                "highlight" : [ "header-nav" ]
+              } ]
+            }, {
+              "name" : "header-right",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "inside header-nav 20px top, 20px bottom, 40px right, 994px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                }, {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                }, {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "994px",
+                  "realDistance" : "994px"
+                } ],
+                "highlight" : [ "header-right", "header-nav" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "width 319px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "319px",
+                  "realDistance" : "319px"
+                } ],
+                "highlight" : [ "header-right" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "height 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "header-right" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 40
+                },
+                "name" : "right-of logo 791px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "791px",
+                  "realDistance" : "791px"
+                } ],
+                "highlight" : [ "header-right", "logo" ]
+              } ]
+            }, {
+              "name" : "header-right-text",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "inside header-right 0px top, 0px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "header-right-text", "header-right" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "width 319px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-right-text",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "319px",
+                  "realDistance" : "319px"
+                } ],
+                "highlight" : [ "header-right-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 44
+                },
+                "name" : "height 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "header-right-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-right-text",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "header-right-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "text is \"Hesabınız zaten var mı? Buradan giriş yap.\"",
+                "highlight" : [ "header-right-text" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "inside header-nav 20px top, 19px bottom, 1150px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "19px",
+                  "realDistance" : "19px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1150px",
+                  "realDistance" : "1150px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header-nav",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "logo", "header-nav" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "width 163px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "163px",
+                  "realDistance" : "163px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "height 41px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "41px",
+                  "realDistance" : "41px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 50
+                },
+                "name" : "inside  header 20px top, 20px bottom, 1150px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1150px",
+                  "realDistance" : "1150px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "logo", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "image file ../image/logo2.png, error 141px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "left-of header-right 791px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "header-right",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "791px",
+                  "realDistance" : "791px"
+                } ],
+                "highlight" : [ "logo", "header-right" ]
+              } ]
+            } ]
+          }, {
+            "name" : "Body",
+            "place" : {
+              "filePath" : "1368x721/register.gspec",
+              "lineNumber" : 53
+            },
+            "objects" : [ {
+              "name" : "body",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "width 1353px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1353px",
+                  "realDistance" : "1353px"
+                } ],
+                "highlight" : [ "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 56
+                },
+                "name" : "height 647px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "647px",
+                  "realDistance" : "647px"
+                } ],
+                "highlight" : [ "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "aligned vertically all header",
+                "highlight" : [ "body", "header" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "near header 29px bottom",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "header",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "29px",
+                  "realDistance" : "29px"
+                } ],
+                "highlight" : [ "body", "header" ]
+              } ]
+            }, {
+              "name" : "body-box",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "inside body 0px top, 0px bottom, 97px right, 96px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "97px",
+                  "realDistance" : "97px"
+                }, {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "96px",
+                  "realDistance" : "96px"
+                } ],
+                "highlight" : [ "body-box", "body" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "width 1160px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1160px",
+                  "realDistance" : "1160px"
+                } ],
+                "highlight" : [ "body-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 62
+                },
+                "name" : "height 647px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "body-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "647px",
+                  "realDistance" : "647px"
+                } ],
+                "highlight" : [ "body-box" ]
+              } ]
+            }, {
+              "name" : "left-box",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "inside body-box 1px top, 1px bottom, 580px right, 1px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "580px",
+                  "realDistance" : "580px"
+                }, {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                } ],
+                "highlight" : [ "left-box", "body-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "width 579px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "left-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "579px",
+                  "realDistance" : "579px"
+                } ],
+                "highlight" : [ "left-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "height 645px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "left-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "645px",
+                  "realDistance" : "645px"
+                } ],
+                "highlight" : [ "left-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "left-of right-box 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "left-box",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "left-box", "right-box" ]
+              } ]
+            }, {
+              "name" : "right-box",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 69
+                },
+                "name" : "inside body-box 1px top, 1px bottom, 1px right, 580px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "body-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "580px",
+                  "realDistance" : "580px"
+                } ],
+                "highlight" : [ "right-box", "body-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "width 579px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "579px",
+                  "realDistance" : "579px"
+                } ],
+                "highlight" : [ "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 71
+                },
+                "name" : "height 645px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "645px",
+                  "realDistance" : "645px"
+                } ],
+                "highlight" : [ "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 72
+                },
+                "name" : "right-of left-box 0px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "left-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "right-box", "left-box" ]
+              } ]
+            }, {
+              "name" : "register-form",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "inside right-box 44px top, 45px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "44px",
+                  "realDistance" : "44px"
+                }, {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "45px",
+                  "realDistance" : "45px"
+                }, {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "register-form", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "height 556px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "556px",
+                  "realDistance" : "556px"
+                } ],
+                "highlight" : [ "register-form" ]
+              } ]
+            }, {
+              "name" : "register-form2",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 78
+                },
+                "name" : "inside right-box 44px top, 45px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "44px",
+                  "realDistance" : "44px"
+                }, {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "45px",
+                  "realDistance" : "45px"
+                }, {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "register-form2", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 79
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "register-form2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 80
+                },
+                "name" : "height 556px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form2",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "556px",
+                  "realDistance" : "556px"
+                } ],
+                "highlight" : [ "register-form2" ]
+              } ]
+            }, {
+              "name" : "register-form3",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 82
+                },
+                "name" : "inside right-box 120px top, 295px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "120px",
+                  "realDistance" : "120px"
+                }, {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "295px",
+                  "realDistance" : "295px"
+                }, {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "register-form3", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 83
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "register-form3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 84
+                },
+                "name" : "height 230px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-form3",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "230px",
+                  "realDistance" : "230px"
+                } ],
+                "highlight" : [ "register-form3" ]
+              } ]
+            }, {
+              "name" : "register-title",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-title",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-title",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "register-title" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 87
+                },
+                "name" : "height 36px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register-title",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-title",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "36px",
+                  "realDistance" : "36px"
+                } ],
+                "highlight" : [ "register-title" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "text is \"Ücretsiz Foreks Trader Hesabını Oluştur\"",
+                "highlight" : [ "register-title" ]
+              } ]
+            }, {
+              "name" : "email",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 90
+                },
+                "name" : "inside  register-form 76px top, 430px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "76px",
+                  "realDistance" : "76px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "430px",
+                  "realDistance" : "430px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "email", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 91
+                },
+                "name" : "inside  register-form2 76px top, 430px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "76px",
+                  "realDistance" : "76px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "430px",
+                  "realDistance" : "430px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "email", "register-form2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 92
+                },
+                "name" : "inside  register-form3 0px top, 180px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "180px",
+                  "realDistance" : "180px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "email", "register-form3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 93
+                },
+                "name" : "inside right-box 120px top, 475px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "120px",
+                  "realDistance" : "120px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "475px",
+                  "realDistance" : "475px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "email", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 94
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "email",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "email" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 95
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "email" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 96
+                },
+                "name" : "above name 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "email", "name" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 97
+                },
+                "name" : "aligned vertically all name",
+                "highlight" : [ "email", "name" ]
+              } ]
+            }, {
+              "name" : "emailclas",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 99
+                },
+                "name" : "inside  register-form 76px top, 430px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "76px",
+                  "realDistance" : "76px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "430px",
+                  "realDistance" : "430px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "emailclas", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 100
+                },
+                "name" : "inside  register-form2 76px top, 430px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "76px",
+                  "realDistance" : "76px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "430px",
+                  "realDistance" : "430px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "emailclas", "register-form2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 101
+                },
+                "name" : "inside  register-form3 0px top, 180px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "180px",
+                  "realDistance" : "180px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form3",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "emailclas", "register-form3" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 102
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "emailclas",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "emailclas" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 103
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "emailclas",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "emailclas" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 104
+                },
+                "name" : "above name 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "emailclas",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "emailclas", "name" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 105
+                },
+                "name" : "aligned vertically all name",
+                "highlight" : [ "emailclas", "name" ]
+              } ]
+            }, {
+              "name" : "name",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 107
+                },
+                "name" : "inside  register-form 136px top, 370px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "136px",
+                  "realDistance" : "136px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "370px",
+                  "realDistance" : "370px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "name", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 108
+                },
+                "name" : "inside  register-form2 136px top, 370px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "136px",
+                  "realDistance" : "136px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "370px",
+                  "realDistance" : "370px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form2",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "name", "register-form2" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 109
+                },
+                "name" : "inside right-box 180px top, 415px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "180px",
+                  "realDistance" : "180px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "415px",
+                  "realDistance" : "415px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "name", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 110
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "name",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "name" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 111
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "name",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "name" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 112
+                },
+                "name" : "above surname 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "name",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "surname",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "name", "surname" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 113
+                },
+                "name" : "aligned vertically all surname",
+                "highlight" : [ "name", "surname" ]
+              } ]
+            }, {
+              "name" : "surname",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 115
+                },
+                "name" : "inside  register-form 196px top, 310px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "196px",
+                  "realDistance" : "196px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "310px",
+                  "realDistance" : "310px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "surname", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 116
+                },
+                "name" : "inside right-box 240px top, 355px bottom, 40px right, 40px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "240px",
+                  "realDistance" : "240px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "355px",
+                  "realDistance" : "355px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                }, {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "right-box",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "surname", "right-box" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 117
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "surname",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "surname" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 118
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "surname",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "surname" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 119
+                },
+                "name" : "above phone 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "surname",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "phone",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "surname", "phone" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 120
+                },
+                "name" : "aligned vertically all phone",
+                "highlight" : [ "surname", "phone" ]
+              } ]
+            }, {
+              "name" : "phone",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 122
+                },
+                "name" : "inside  register-form 256px top, 250px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "256px",
+                  "realDistance" : "256px"
+                }, {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "250px",
+                  "realDistance" : "250px"
+                }, {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "phone", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 123
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "phone",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "phone" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 124
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "phone",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "phone" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 125
+                },
+                "name" : "above security-confirmation 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "phone",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "security-confirmation",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "phone", "security-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 126
+                },
+                "name" : "aligned vertically all submit-btn",
+                "highlight" : [ "phone", "submit-btn" ]
+              } ]
+            }, {
+              "name" : "submit-btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 128
+                },
+                "name" : "inside  register-form 394px top, 112px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "394px",
+                  "realDistance" : "394px"
+                }, {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "112px",
+                  "realDistance" : "112px"
+                }, {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "submit-btn", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 129
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "submit-btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "submit-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 130
+                },
+                "name" : "height ~50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "submit-btn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "43 to 57px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "submit-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 131
+                },
+                "name" : "above login-text-btn 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "submit-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-text-btn",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "submit-btn", "login-text-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 132
+                },
+                "name" : "aligned vertically all security-confirmation",
+                "highlight" : [ "submit-btn", "security-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 133
+                },
+                "name" : "css color is  \"rgba(0, 0, 0, 1)\"",
+                "highlight" : [ "submit-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 134
+                },
+                "name" : "css background-color is  \"rgba(240, 197, 41, 1)\"",
+                "highlight" : [ "submit-btn" ]
+              } ]
+            }, {
+              "name" : "security-confirmation",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 136
+                },
+                "name" : "inside  register-form 316px top, 216px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "316px",
+                  "realDistance" : "316px"
+                }, {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "216px",
+                  "realDistance" : "216px"
+                }, {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "security-confirmation", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 137
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "security-confirmation",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "security-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 138
+                },
+                "name" : "height 24px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "security-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "24px",
+                  "realDistance" : "24px"
+                } ],
+                "highlight" : [ "security-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 139
+                },
+                "name" : "above email-confirmation 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "security-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "email-confirmation",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "security-confirmation", "email-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 140
+                },
+                "name" : "aligned vertically all email-confirmation",
+                "highlight" : [ "security-confirmation", "email-confirmation" ]
+              } ]
+            }, {
+              "name" : "email-confirmation",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 142
+                },
+                "name" : "inside  register-form 355px top, 161px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "355px",
+                  "realDistance" : "355px"
+                }, {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "161px",
+                  "realDistance" : "161px"
+                }, {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "email-confirmation", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 143
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "email-confirmation",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "email-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 144
+                },
+                "name" : "height 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "email-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "email-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 145
+                },
+                "name" : "above call-confirmation 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "email-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "call-confirmation",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "14px"
+                } ],
+                "highlight" : [ "email-confirmation", "call-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 146
+                },
+                "name" : "aligned vertically all call-confirmation",
+                "highlight" : [ "email-confirmation", "call-confirmation" ]
+              } ]
+            }, {
+              "name" : "call-confirmation",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 148
+                },
+                "name" : "inside  register-form 409px top, 107px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "409px",
+                  "realDistance" : "409px"
+                }, {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "107px",
+                  "realDistance" : "107px"
+                }, {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "call-confirmation", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 149
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "call-confirmation",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "call-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 150
+                },
+                "name" : "height 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "call-confirmation",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "call-confirmation",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "call-confirmation" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 151
+                },
+                "name" : "aligned vertically all login-text-btn",
+                "highlight" : [ "call-confirmation", "login-text-btn" ]
+              } ]
+            }, {
+              "name" : "login-text-btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 153
+                },
+                "name" : "inside  register-form 454px top, 80px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "454px",
+                  "realDistance" : "454px"
+                }, {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "80px",
+                  "realDistance" : "80px"
+                }, {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "login-text-btn", "register-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 154
+                },
+                "name" : "width 499px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-text-btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "499px",
+                  "realDistance" : "499px"
+                } ],
+                "highlight" : [ "login-text-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 155
+                },
+                "name" : "height ~21px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-text-btn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "14 to 28px",
+                  "realDistance" : "22px"
+                } ],
+                "highlight" : [ "login-text-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 156
+                },
+                "name" : "below submit-btn 10 to 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-text-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "submit-btn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "login-text-btn", "submit-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1368x721/register.gspec",
+                  "lineNumber" : 157
+                },
+                "name" : "aligned vertically all email",
+                "highlight" : [ "login-text-btn", "email" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "header-right-text" : {
+              "area" : [ 994, 20, 319, 40 ]
+            },
+            "security-confirmation" : {
+              "area" : [ 716, 471, 499, 24 ]
+            },
+            "submit-btn" : {
+              "area" : [ 716, 549, 499, 50 ]
+            },
+            "body-box" : {
+              "area" : [ 96, 110, 1160, 647 ]
+            },
+            "body" : {
+              "area" : [ 0, 110, 1353, 647 ]
+            },
+            "register-form" : {
+              "area" : [ 716, 155, 499, 556 ]
+            },
+            "header-nav" : {
+              "area" : [ 0, 0, 1353, 80 ]
+            },
+            "header-right" : {
+              "area" : [ 994, 20, 319, 40 ]
+            },
+            "register-form3" : {
+              "area" : [ 716, 231, 499, 230 ]
+            },
+            "register-form2" : {
+              "area" : [ 716, 155, 499, 556 ]
+            },
+            "phone" : {
+              "area" : [ 716, 411, 499, 50 ]
+            },
+            "surname" : {
+              "area" : [ 716, 351, 499, 50 ]
+            },
+            "name" : {
+              "area" : [ 716, 291, 499, 50 ]
+            },
+            "header" : {
+              "area" : [ 0, 0, 1353, 81 ]
+            },
+            "logo" : {
+              "area" : [ 40, 20, 163, 41 ]
+            },
+            "register-title" : {
+              "area" : [ 716, 155, 499, 36 ]
+            },
+            "login-text-btn" : {
+              "area" : [ 716, 609, 499, 22 ]
+            },
+            "call-confirmation" : {
+              "area" : [ 716, 564, 499, 40 ]
+            },
+            "email-confirmation" : {
+              "area" : [ 716, 510, 499, 40 ]
+            },
+            "right-box" : {
+              "area" : [ 676, 111, 579, 645 ]
+            },
+            "left-box" : {
+              "area" : [ 97, 111, 579, 645 ]
+            },
+            "email" : {
+              "area" : [ 716, 231, 499, 50 ]
+            },
+            "emailclas" : {
+              "area" : [ 716, 231, 499, 50 ]
+            }
+          },
+          "screenshot" : "layout-13-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1655213602518,
+        "type" : "node"
+      }, {
+        "name" : "wait 30s",
+        "status" : "info",
+        "time" : 1655213606833,
+        "type" : "node"
+      } ],
+      "time" : 1655213566086,
+      "type" : "node"
+    } ]
+  }
+}

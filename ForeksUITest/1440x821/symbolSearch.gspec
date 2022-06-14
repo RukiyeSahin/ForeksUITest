@@ -1,0 +1,107 @@
+@objects  
+    takip-ettiklerim  xpath  //*[@class="lBottom"] 
+    takip-ettiklerim-sembol-exit  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolSearch"]
+    takip-ettiklerim-container  xpath //*[@class="lBottom"]//*[@class="css-view-1dbjc4n r-bottom-1p0dtai r-flexDirection-eqz5dr r-flexGrow-16y2uox r-flexShrink-1wbh5a2 r-left-1d2f490 r-position-u8s1d r-right-zchlnj r-top-ipm5af"]
+    takip-ettiklerim-header  xpath  //*[@class="ng-isolate-scope"]//*[@frks-id="liveSecuriyPrices"]
+    takip-ettiklerim-input  xpath  //*[@class="lBottom"]//*[@class="css-view-1dbjc4n"]//input
+    takip-ettiklerim-body  xpath  //*[@class="lBottom"]//*[@class="css-view-1dbjc4n r-flexGrow-16y2uox r-flexShrink-1wbh5a2 r-height-1pi2tsx r-width-13qz1uu"]
+    takip-ettiklerim-ok-btn  xpath  //*[@class="lBottom"]//*[@class="css-text-901oao r-flexGrow-16y2uox"]
+    favori-endeksler  xpath  //*[@frks-id="Favori Endeksler"]
+    favori-endeksler-title  xpath   //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-title ng-binding"]
+    favori-endeksler-sembol-exit  xpath   //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolSearch"]
+    favori-endeksler-container  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+    favori-endeksler-header  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"]
+    favori-endeksler-input  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="css-view-1dbjc4n"]//input
+    favori-endeksler-body  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="css-view-1dbjc4n r-flexGrow-16y2uox r-flexShrink-1wbh5a2 r-height-1pi2tsx r-width-13qz1uu"]
+    favori-endeksler-ok-btn  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="css-text-901oao r-flexGrow-16y2uox"]
+    bist-yukselenler  xpath  //*[@frks-id="BIST Yükselenler"]
+    bist-yukselenler-title  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-title ng-binding"]
+    bist-yukselenler-sembol-exit  xpath  //*[@frks-id="BIST Yükselenler"]//*[@frks-id="open-column-settings"]
+    bist-yukselenler-container  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+    bist-yukselenler-header  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"]
+    bist-yukselenler-body  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="css-view-1dbjc4n r-WebkitOverflowScrolling-150rngu r-flexDirection-eqz5dr r-flexGrow-16y2uox r-flexShrink-1wbh5a2 r-overflowX-11yh6sk r-overflowY-1rnoaur r-transform-1sncvnh"]
+    bist-yukselenler-ok-btn  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="css-view-1dbjc4n r-cursor-1loqt21 r-touchAction-1otgn73 r-transitionProperty-1i6wzkk r-userSelect-lrvibr"]
+= Takip Ettiklerim =
+  @on * 
+    takip-ettiklerim:      
+        width ~360px 
+        height ~552px
+    takip-ettiklerim-container :
+        inside takip-ettiklerim 0px top, 0px bottom, 0px right, 0px left
+        width 360px 
+        height 548px
+    takip-ettiklerim-header:
+        inside takip-ettiklerim-container 0px top, 508px bottom, 0px right, 0px left
+        width 360px 
+        height 40px  
+    takip-ettiklerim-sembol-exit :
+        inside takip-ettiklerim-container 11px top, 517px bottom, 10px right, 330px left
+        width 20px 
+        height 20px  
+    takip-ettiklerim-input:
+        inside takip-ettiklerim-container 43px top, 480px bottom, 10px right, 10px left
+        width 340px 
+        height 25px 
+    takip-ettiklerim-body:
+        inside takip-ettiklerim-container 68px top, 54px bottom, 10px right, 10px left
+        width 340px 
+        height 426px 
+    takip-ettiklerim-ok-btn:
+        inside takip-ettiklerim-container 510px top, 20px bottom, 16px right, 16px left
+        width 328px 
+        height 18px 
+= Favori Endeksler=
+  @on * 
+    favori-endeksler:      
+        width ~343px 
+        height ~201px
+    favori-endeksler-container:
+        inside favori-endeksler 0px top, 0px bottom, 0px right, 0px left
+        width 347px 
+        height 148px
+    favori-endeksler-title:
+        inside favori-endeksler 10px top, 168px bottom, 194px right, 10px left
+        width 139px 
+        height 22px  
+    favori-endeksler-sembol-exit :
+        inside favori-endeksler 11px top, 169px bottom, 6px right, 317px left
+        width 20px 
+        height 20px  
+    favori-endeksler-input:
+        inside favori-endeksler-container 0px top, 123px bottom, 10px right, 10px left
+        width 327px 
+        height 25px 
+    favori-endeksler-body:
+        inside favori-endeksler-container 25px top, 40px bottom, 10px right, 10px left
+        width 327px 
+        height 83px 
+    favori-endeksler-ok-btn:
+        inside favori-endeksler-container 123px top, 7px bottom, 16px right, 16px left
+        width 315px 
+        height 18px 
+= Bist Yukselenler =
+  @on *    
+    bist-yukselenler:      
+        width ~343px 
+        height ~201px
+    bist-yukselenler-container:
+        inside bist-yukselenler 0px top, 0px bottom, 0px right, 0px left
+        width 347px 
+        height 148px
+    bist-yukselenler-title:
+        inside bist-yukselenler 10px top, 168px bottom, 195px right, 10px left
+        width 138px 
+        height 22px  
+    bist-yukselenler-sembol-exit :
+        inside bist-yukselenler 11px top, 169px bottom, 6px right, 317px left
+        width 20px 
+        height 20px  
+    bist-yukselenler-body:
+        inside bist-yukselenler-container 48px top, 45px bottom, 10px right, 10px left
+        width 327px 
+        height 55px 
+    bist-yukselenler-ok-btn:
+        inside bist-yukselenler-container 113px top, 5px bottom, 10px right, 10px left
+        width 327px 
+        height 30px
+

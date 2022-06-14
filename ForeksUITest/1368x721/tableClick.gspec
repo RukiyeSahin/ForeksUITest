@@ -1,0 +1,62 @@
+@objects
+    takip-ettiklerim  xpath  //*[@class="lBottom"]
+    favori-endeksler  xpath  //*[@frks-id="Favori Endeksler"]
+    takip-ettiklerim-symbol-detail-container  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]
+    takip-ettiklerim-symbol-detail-edit-btn  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-edit-btn-id"]
+    takip-ettiklerim-symbol-detail-big-btn  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-big-btn-id"]
+    takip-ettiklerim-symbol-detail-close-btn  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-close-btn-id"]
+    takip-ettiklerim-symbol-detail-body  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@class="css-view-1dbjc4n r-zIndex-417010"]
+    takip-ettiklerim-teknik-analiz  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@title="Teknik Analiz"]
+    favori-endeksler-symbol-detail-container  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]
+    favori-endeksler-symbol-detail-edit-btn  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-edit-btn-id"]
+    favori-endeksler-symbol-detail-big-btn  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-big-btn-id"]
+    favori-endeksler-symbol-detail-close-btn  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@data-testid="symbol-detail-close-btn-id"]
+    favori-endeksler-symbol-detail-body  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@class="css-view-1dbjc4n r-zIndex-417010"]
+    favori-endeksler-teknik-analiz  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolDetails"]//*[@title="Teknik Analiz"]   
+   
+= Body =
+ @on * 
+    takip-ettiklerim-symbol-detail-container:
+        inside takip-ettiklerim 190px top, 25px bottom, 5px right, 5px left
+        width 350px 
+    takip-ettiklerim-symbol-detail-edit-btn:
+        inside  takip-ettiklerim-symbol-detail-container 11px top, 212px bottom, 61px right, 267px left
+        width 22px 
+        height 22px
+    takip-ettiklerim-symbol-detail-big-btn: 
+        inside  takip-ettiklerim-symbol-detail-container 11px top, 212px bottom, 36px right, 292px left
+        width 22px 
+        height 22px
+    takip-ettiklerim-symbol-detail-close-btn:
+        inside takip-ettiklerim-symbol-detail-container 11px top, 212px bottom, 11px right, 317px left
+        width 22px 
+        height 22px  
+    takip-ettiklerim-symbol-detail-body: 
+        inside takip-ettiklerim-symbol-detail-container 43px top, 2px bottom, 11px right, 11px left
+        width 328px 
+    favori-endeksler-symbol-detail-container: 
+        width 293px 
+        height 167px
+    favori-endeksler-symbol-detail-edit-btn:
+        inside favori-endeksler-symbol-detail-container 11px top, 134px bottom, 61px right, 210px left
+        width 22px 
+        height 22px 
+    favori-endeksler-symbol-detail-big-btn: 
+        inside favori-endeksler-symbol-detail-container 11px top, 134px bottom, 36px right, 235px left
+        width 22px 
+        height 22px 
+    favori-endeksler-symbol-detail-close-btn: 
+        inside favori-endeksler-symbol-detail-container 11px top, 134px bottom, 11px right, 260px left
+        width 22px 
+        height 22px
+    favori-endeksler-symbol-detail-body:  
+        inside favori-endeksler-symbol-detail-container 43px top, 2px bottom, 11px right, 11px left
+        width 271px 
+        height 122px
+    favori-endeksler-teknik-analiz:
+        inside favori-endeksler-symbol-detail-container 43px top, 102px bottom, 11px right, 11px left
+        width 271px 
+        height 22px
+
+
+

@@ -1,0 +1,453 @@
+@objects
+  header  xpath  (//*[@class="ng-scope"])[2]
+  header-left  xpath  (//*[@class="left ng-scope"])[1]
+  header-right  xpath  (//*[@class="right ng-scope"])[1]
+  header-controls  xpath  //*[@class="controls ng-scope"]
+  logo  xpath  //*[@class="logo"]
+  edit-list  xpath  //*[@class="editLayout ng-scope"]
+  edit  xpath  //*[@class="btn ng-binding"]
+  ekrantasarim-list  xpath  //*[@id="saved-screens-selector"]
+  hisselerim  xpath  //*[@class="hisselerim"]
+  save  xpath  //*[@id="save"]
+  save-as  xpath  //*[@class="save as"]
+  modul-list  xpath  //*[@id="widget-list-menu-opener"]
+  modul  xpath  (//*[@class="ng-scope ng-isolate-scope"])[5]
+  lisansal-list  xpath  //*[@class="licenceBtn ng-scope"]
+  lisansal-btn  xpath  //*[@class="btn buyLicenceBtn ng-scope"]
+  alsat-btn-list  xpath  //*[@class="alSat ng-scope"]
+  sat-btn  xpath  //*[@frks-id="openOrderSell"]
+  al-btn  xpath  //*[@frks-id="openOrderBuy"]
+  alarm-list  xpath  //*[@class="alarm ng-scope"]  
+  alarm  xpath  //*[@class="btn open-alert-menu ng-isolate-scope"]
+  saat-list  xpath  //*[@class="time ng-scope"]
+  saat  xpath  (//*[@class="ng-isolate-scope"])[1]
+  profil-list  xpath  (//*[@class="profil ng-isolate-scope"])[1]
+  profil  xpath  //*[@id="menu-profile-toggle-button"]
+  cikis-list  xpath  //*[@frks-id="mainExitBtn"]
+  cikis  xpath  //*[@class="btn ng-scope"]
+  body  xpath  //*[@class="widget-append widget-drag-zone ng-scope TraderPoolWrapper"]
+  yatirimci-hesabim  xpath  //*[@class="lTop ng-scope"]
+  takip-ettiklerim  xpath  //*[@class="lBottom"]
+  teknik-analiz  xpath   //*[@frks-id="Teknik Analiz"]
+  favori-endeksler  xpath  //*[@frks-id="Favori Endeksler"]
+  haber-youtube  xpath  //*[@frks-id="Foreks Haber Youtube"]
+  bos  xpath  (//*[@class="draggable-widget ng-scope sectionModul"])[9]
+  ekonomik-takvim  xpath  //*[@frks-id="Ekonomik Takvim"]
+  bist-yukselenler  xpath  //*[@frks-id="BIST Yükselenler"]
+  takip-ettiklerim-header  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPrices"]
+  takip-ettiklerim-body  xpath  //*[@class="lBottom"]//*[@class="mCustomScrollBox mCS-minimal-dark mCSB_vertical mCSB_outside"]
+  favori-endeksler-header  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"] 
+  favori-endeksler-body  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+  teknik-analiz-header  xpath  //*[@frks-id="Teknik Analiz"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"] 
+  teknik-analiz-body  xpath  //*[@frks-id="Teknik Analiz"]//*[@class="tradingChart ui-dialog-content ui-widget-content ng-isolate-scope"]
+  ekonomik-takvim-header  xpath  //*[@frks-id="Ekonomik Takvim"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"] 
+  ekonomik-takvim-body  xpath  //*[@frks-id="Ekonomik Takvim"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+  bist-yukselenler-header  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"]
+  bist-yukselenler-body  xpath  //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+  haber-youtube-header  xpath  //*[@frks-id="Foreks Haber Youtube"]//*[@class="ui-dialog-titlebar ui-corner-all ui-widget-header ui-helper-clearfix"]
+  haber-youtube-body  xpath  //*[@frks-id="Foreks Haber Youtube"]//*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]
+  takip-ettiklerim-even-table-tr-*  xpath  //*[@class="lBottom"]//*[@class="mCSB_container"]/table//*[@id="live-security-tbody"]//*[@class="widget curpointer live-security-prices-row noselect ng-scope even"]
+  takip-ettiklerim-odd-table-tr-*  xpath  //*[@class="lBottom"]//*[@class="mCSB_container"]/table//*[@id="live-security-tbody"]//*[@class="widget curpointer live-security-prices-row noselect ng-scope odd"]
+  takip-ettiklerim-title  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesTitle"]
+  takip-ettiklerim-twitter  xpath  //*[@class="lBottom"]//*[@class="wbtn twitter-button ng-scope"]
+  takip-ettiklerim-sembol-search  xpath //*[@class="lBottom"]//*[@frks-id="liveSecuriyPricesSymbolSearch"]
+  takip-ettiklerim-sutun-add  xpath  //*[@class="lBottom"]//*[@frks-id="open-column-settings"]
+  takip-ettiklerim-screenshot  xpath  //*[@class="lBottom"]//*[@frks-id="liveSecurityBoxScreenShot"]
+  favori-endeksler-even-table-tr-*  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="mCSB_container"]/table//*[@id="live-security-tbody"]//*[@class="widget curpointer live-security-prices-row noselect ng-scope even"]
+  favori-endeksler-odd-table-tr-*  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="mCSB_container"]/table//*[@id="live-security-tbody"]//*[@class="widget curpointer live-security-prices-row noselect ng-scope odd"]
+  favori-endeksler-title  xpath  //*[@frks-id="Favori Endeksler"]//*[@class="ui-dialog-title ng-binding"]
+  favori-endeksler-sembol-search  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecuriyPricesSymbolSearch"]
+  favori-endeksler-sutun-add  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="open-column-settings"]
+  favori-endeksler-screenshot  xpath  //*[@frks-id="Favori Endeksler"]//*[@frks-id="liveSecurityBoxScreenShot"]
+  haber-youtube-title  xpath  //*[@frks-id="Foreks Haber Youtube"]//*[@class="ui-dialog-title ng-binding"]
+  haber-youtube-li-*  xpath  //*[@frks-id="Foreks Haber Youtube"]/*[@class="ui-dialog-content ui-widget-content ng-isolate-scope"]//*[@class="css-view-1dbjc4n"]//*[@class="css-view-1dbjc4n"]
+  teknik-analiz-title  xpath  //*[@frks-id="Teknik Analiz"]//*[@class="ui-dialog-title ng-binding"]
+  teknik-analiz-twitter-paylasim  xpath  //*[@frks-id="Teknik Analiz"]//*[@class="tweetBtn ng-scope"]
+  teknik-analiz-body-body  xpath  //*[@class="chart-page on-widget"]//*[@class="chart-container active"] 
+  teknik-analiz-body-header  xpath  //*[@class="chart-page on-widget"]//*[@class="layout__area--top"] 
+  teknik-analiz-body-left  xpath  //*[@class="chart-page on-widget"]//*[@class="layout__area--left"] 
+  teknik-analiz-body-header-toolbar-symbol-search  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-symbol-search"] 
+  teknik-analiz-body-header-toolbar-intervals  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-intervals"] 
+  teknik-analiz-body-header-toolbar-chart-styles  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-chart-styles"]  
+  teknik-analiz-body-header-toolbar-compare  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-compare"] 
+  teknik-analiz-body-header-toolbar-indicators  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-indicators"] 
+  teknik-analiz-body-header-toolbar-undo-redo  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-undo-redo"] 
+  teknik-analiz-body-header-toolbar-properties  xpath  //*[@class="chart-page on-widget"]//*[@id="header-toolbar-properties"] 
+  teknik-analiz-body-left-toolbar  xpath  //*[@class="chart-page on-widget"]//*[@class="dropdown-3_ASLzSj- apply-common-tooltip common-tooltip-vertical"] 
+  ekonomik-takvim-title  xpath   //*[@frks-id="Ekonomik Takvim"]//*[@class="ui-dialog-title ng-binding"]
+  ekonomik-takvim-calender  xpath  (//*[@frks-id="Ekonomik Takvim"]//*[@class="css-text-901oao"])[1]
+  bist-yukselenler-title  xpath   //*[@frks-id="BIST Yükselenler"]//*[@class="ui-dialog-title ng-binding"]
+  bist-yukselenler-sutun-add  xpath  //*[@frks-id="BIST Yükselenler"]//*[@frks-id="open-column-settings"]
+  bist-yukselenler-screenshot  xpath  //*[@frks-id="BIST Yükselenler"]//*[@frks-id="liveSecurityBoxScreenShot"]
+
+
+= Header =
+  @on *
+    header:
+      width 1440px 
+      height 60px
+      near body 0px top 
+    header-left:
+      inside header 14px top, 46px bottom, 10px right, 20px left
+      left-of header-controls -893px
+      width 1410px 
+      height 0px
+    header-right:
+      inside header 14px top, 14px bottom, 10px right, 1244px left
+      right-of header-controls 0px
+      aligned horizontally top header-controls
+      width 186px 
+      height 32px
+    header-controls:
+      right-of header-left -893px
+      left-of header-right 0px
+      aligned horizontally all header-right
+      width 707px 
+      height 32px
+    logo:
+      left-of header-controls 393px
+      width 124px 
+      height 31px   
+      image file ../image/logo2.png, error 141px 
+    edit-list:
+      inside header-controls 0px top, 0px bottom, 667px right, 0px left
+      aligned horizontally all ekrantasarim-list
+      right-of logo 393px
+      left-of ekrantasarim-list 20px
+      width 40px 
+      height 32px 
+    edit:
+      inside edit-list 0px top, 0px bottom, 0px right, 0px left
+      width 40px 
+      height 32px 
+    ekrantasarim-list:
+      inside header-controls 0px top, 0px bottom, 367px right, 60px left
+      aligned horizontally all modul-list
+      right-of edit-list 20px
+      left-of modul-list 20px
+      width 280px 
+      height 32px 
+    hisselerim:
+      inside ekrantasarim-list 0px top, 0px bottom, 90px right, 0px left
+      width 190px 
+      height 32px 
+    save:
+      inside ekrantasarim-list 0px top, 0px bottom, 45px right, 195px left
+      width 40px 
+      height 32px  
+    save-as:
+      inside ekrantasarim-list 0px top, 0px bottom, 0px right, 240px left
+      width 40px 
+      height 32px 
+    modul-list:
+      inside header-controls 0px top, 0px bottom,307px right, 360px left
+      aligned horizontally all lisansal-list
+      left-of lisansal-list 20px
+      right-of ekrantasarim-list 20px
+      width 40px 
+      height 32px
+    modul:
+      inside modul-list 0px top, 0px bottom, 0px right, 0px left
+      width 40px 
+      height 32px 
+    lisansal-list:
+      inside header-controls 0px top, 0px bottom, 170px right, 420px left
+      aligned horizontally all alsat-btn-list
+      left-of alsat-btn-list 20px
+      right-of modul-list 20px
+      width 117px 
+      height 32px
+    lisansal-btn:
+      width 117px 
+      height 32px 
+      css background-color is  "rgba(0, 0, 0, 0)"  
+    alsat-btn-list:
+      inside header-controls 0px top, 0px bottom, 65px right, 557px left
+      aligned horizontally all alarm-list
+      right-of lisansal-list 20px
+      left-of alarm-list 20px
+      width 85px 
+      height 32px
+    sat-btn:
+      inside alsat-btn-list 0px top, 0px bottom, 0px right, 45px left
+      width 40px 
+      height 32px
+      css background-color is  "rgba(220, 18, 18, 1)"  
+    al-btn:
+      inside alsat-btn-list 0px top, 0px bottom, 45px right, 0px left
+      width 40px 
+      height 32px 
+      css background-color is  "rgba(97, 213, 0, 1)"  
+    alarm-list:
+      inside header-controls 0px top, 0px bottom, 5px right, 662px left
+      aligned horizontally all saat-list
+      left-of saat-list 15px
+      right-of alsat-btn-list 20px
+      width 40px 
+      height 32px
+    alarm:
+      inside alarm-list 0px top, 0px bottom, 0px right, 0px left
+      width 40px 
+      height 32px 
+    saat-list:
+      aligned horizontally all profil-list
+      left-of profil-list 10px
+      right-of alarm-list 15px
+      width 51px 
+      height 32px
+    profil-list: 
+      aligned horizontally all cikis-list
+      left-of cikis-list 20px
+      right-of saat-list 10px  
+      width 40px 
+      height 32px
+    cikis-list:
+      inside header-right 0px top, 0px bottom, 0px right, 131px left
+      right-of profil-list 20px
+      width 55px 
+      height 32px  
+    cikis:
+      inside cikis-list 0px top, 0px bottom, 0px right, 0px left
+      css font-size is "14px" 
+      css color is  "rgba(204, 166, 44, 1)"
+      css background-color is  "rgba(242, 242, 242, 1)" 
+= Body =
+  @on *
+    body:
+      width 1440px 
+      height 558px
+      near header 0px bottom 
+    yatirimci-hesabim:
+      inside body 10px top, 486px bottom, 1070px right, 10px left
+      aligned horizontally top favori-endeksler
+      aligned vertically all takip-ettiklerim
+      width 360px 
+      height 62px
+      below header 10 px
+      above takip-ettiklerim 10 px 
+      left-of favori-endeksler 10 px
+      near takip-ettiklerim 10px top  
+    takip-ettiklerim:
+      inside body 82px top, 10px bottom, 1070px right, 10px left
+      aligned vertically all yatirimci-hesabim
+      width 360px 
+      height 466px
+      below yatirimci-hesabim 10 px 
+      left-of favori-endeksler 10 px 
+      left-of haber-youtube 10 px 
+      left-of bos 10 px
+    teknik-analiz:
+      inside body 10px top, 192px bottom, 10px right, 733px left
+      aligned horizontally top yatirimci-hesabim
+      width 697px 
+      height 356px
+      below header 10px 
+      above ekonomik-takvim 9 px
+      above bist-yukselenler 9 px
+      right-of favori-endeksler 10 px 
+      right-of haber-youtube 10 px 
+      right-of bos 10 px
+      near ekonomik-takvim 9px top 
+      near bist-yukselenler 9px top 
+    favori-endeksler:
+      inside body 10px top, 375px bottom, 717px right, 380px left
+      aligned horizontally top teknik-analiz
+      aligned vertically all haber-youtube 
+      width 343px 
+      height 173px
+      below header 10 px
+      above haber-youtube 9 px
+      left-of teknik-analiz 10px
+      right-of takip-ettiklerim 10 px
+      right-of yatirimci-hesabim 10 px
+      near haber-youtube 9px top 
+    haber-youtube:
+      inside body 192px top, 193px bottom, 717px right, 380px left
+      aligned vertically all bos
+      width 343px 
+      height 173px
+      below favori-endeksler 9 px
+      above bos 10px 
+      right-of takip-ettiklerim 10 px
+      left-of teknik-analiz 10 px
+      near bos 10px top 
+    bos:
+      inside body 375px top, 10px bottom, 717px right, 380px left
+      width 343px 
+      height 173px
+      aligned horizontally all ekonomik-takvim
+      aligned vertically all favori-endeksler
+      below haber-youtube 10 px
+      right-of takip-ettiklerim 10 px
+      left-of ekonomik-takvim 10 px
+      near haber-youtube 10px bottom
+    ekonomik-takvim:
+      inside body 375px top, 10px bottom, 364px right, 733px left
+      width 343px 
+      height 173px
+      aligned horizontally all bist-yukselenler
+      below teknik-analiz 9 px
+      right-of bos 10 px
+      left-of bist-yukselenler 10 px
+    bist-yukselenler:
+      inside body 375px top, 10px bottom, 11px right, 1086px left
+      width 343px 
+      height 173px
+      aligned horizontally all bos
+      below teknik-analiz 9 px
+      right-of ekonomik-takvim 10 px
+= Takip ettiklerim =
+  @on *
+    takip-ettiklerim-header:
+      inside takip-ettiklerim 0px top, 426px bottom, 0px right, 0px left
+      width 360px 
+      height 40px
+    takip-ettiklerim-body:
+      inside takip-ettiklerim 40px top, 14px bottom, 0px right, 0px left
+      width 360px 
+      height 412px
+    takip-ettiklerim-title:
+      inside takip-ettiklerim 10px top, 436px bottom, 234px right, 10px left
+      width 116px 
+      height 20px
+      text is "Takip Ettiklerim"
+    takip-ettiklerim-twitter:
+      inside takip-ettiklerim 10px top, 436px bottom, 79px right, 261px left
+      aligned horizontally all takip-ettiklerim-sembol-search
+      width 20px 
+      height 20px
+    takip-ettiklerim-sembol-search:
+      inside takip-ettiklerim 10px top, 436px bottom, 56px right, 284px left 
+      aligned horizontally all takip-ettiklerim-sutun-add
+      width 20px 
+      height 20px  
+    takip-ettiklerim-sutun-add:
+      inside takip-ettiklerim 10px top, 436px bottom, 33px right, 307px left
+      aligned horizontally all takip-ettiklerim-screenshot
+      width 20px 
+      height 20px 
+    takip-ettiklerim-screenshot:
+      inside takip-ettiklerim 10px top, 436px bottom, 10px right, 330px left
+      aligned horizontally all takip-ettiklerim-twitter
+      width 20px 
+      height 20px 
+
+    @for [1 - 8] as index
+      takip-ettiklerim-odd-table-tr-${index}:
+        width ~343px 
+        height 26px
+
+    @for [1 - 8] as index
+      takip-ettiklerim-even-table-tr-${index}:
+        width ~343px 
+        height 26px
+        
+= Favori Endeksler =
+  @on *
+    favori-endeksler-header:
+      inside favori-endeksler 0px top, 131px bottom, 0px right, 0px left
+      width 343px 
+      height 42px
+    favori-endeksler-body:
+      inside favori-endeksler 0px top, 159px bottom, 0px right, 0px left
+      width 347px 
+      height 121px
+    favori-endeksler-title:
+      inside favori-endeksler-header 10px top, 10px bottom, 194px right, 10px left
+      width 139px 
+      height 22px
+    favori-endeksler-sembol-search:
+      inside favori-endeksler-header 10px top, 12px bottom, 52px right, 271px left
+      aligned horizontally all favori-endeksler-sutun-add
+      width 20px 
+      height 20px
+    favori-endeksler-sutun-add:
+      inside favori-endeksler-header 10px top, 12px bottom, 29px right, 294px left
+      aligned horizontally all favori-endeksler-screenshot
+      width 20px 
+      height 20px
+    favori-endeksler-screenshot: 
+      inside favori-endeksler-header 10px top, 12px bottom, 6px right, 317px left
+      aligned horizontally all favori-endeksler-sembol-search
+      width 20px 
+      height 20px 
+
+    @for [1 - 2] as index
+      favori-endeksler-odd-table-tr-${index}:
+        width 317px 
+        height 26px
+    @for [1 - 2] as index
+      favori-endeksler-even-table-tr-${index}:
+        width 317px 
+        height 26px
+= Haber Youtube =
+  @on *
+    haber-youtube-header:
+      inside haber-youtube 0px top, 131px bottom, 0px right, 0px left
+      width 343px 
+      height 42px
+    haber-youtube-body:
+      inside haber-youtube 0px top, 159px bottom, 0px right, 0px left
+      width 347px 
+      height 121px
+= Teknik Analiz =
+  @on *
+    teknik-analiz-header :
+      inside teknik-analiz 0px top, 314px bottom, 0px right, 0px left
+      width 697px 
+      height 42px
+    teknik-analiz-body:
+      inside teknik-analiz 0px top, 159px bottom, 0px right, 0px left
+      width 701px 
+      height 304px
+    teknik-analiz-title:
+      inside teknik-analiz 10px top, 324px bottom, 573px right, 10px left
+      width 114px 
+      height 22px
+ 
+= Ekonomik Takvim =
+  @on *
+    ekonomik-takvim-header:
+      inside ekonomik-takvim 0px top, 131px bottom, 0px right, 0px left
+      width 343px 
+      height 42px
+    ekonomik-takvim-body:
+      inside ekonomik-takvim 0px top, 159px bottom, 0px right, 0px left
+      width 347px 
+      height 121px
+    ekonomik-takvim-calender:
+      inside ekonomik-takvim-header 12px top, 14px bottom, 11px right, 320px left
+      width 12px 
+      height 16px
+= Bist Yukselenler =
+  @on *
+    bist-yukselenler-header:
+      inside bist-yukselenler 0px top, 131px bottom, 0px right, 0px left
+      width 343px 
+      height 42px
+    bist-yukselenler-body:
+      inside bist-yukselenler 0px top, 159px bottom, 0px right, 0px left
+      width 347px 
+      height 121px
+    bist-yukselenler-sutun-add:
+      inside bist-yukselenler-header 10px top, 12px bottom, 29px right, 294px left
+      width 20px 
+      height 20px
+    bist-yukselenler-screenshot: 
+      inside bist-yukselenler-header 10px top, 12px bottom, 6px right, 317px left
+      width 20px 
+      height 20px 
+
+    
+
+
+
+ 
+
+  
+
+
+
+    
+    
+

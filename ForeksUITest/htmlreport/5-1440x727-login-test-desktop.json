@@ -1,0 +1,2646 @@
+{
+  "testId" : "5-1440x727-login-test-desktop",
+  "name" : "1440x727 Login test desktop",
+  "report" : {
+    "nodes" : [ {
+      "name" : "http://webcli-test.foreks.com.s3-website.eu-central-1.amazonaws.com/foreks/#!/ 1440x727",
+      "status" : "info",
+      "nodes" : [ {
+        "name" : "wait 30s",
+        "status" : "info",
+        "time" : 1655213176719,
+        "type" : "node"
+      }, {
+        "name" : "check 1440x727/login.gspec --include \"desktop\"",
+        "status" : "info",
+        "nodes" : [ {
+          "name" : "Check layout: 1440x727/login.gspec included tags: desktop",
+          "status" : "info",
+          "time" : 1655213212156,
+          "includedTags" : [ "desktop" ],
+          "excludedTags" : [ ],
+          "sections" : [ {
+            "name" : "Header",
+            "place" : {
+              "filePath" : "1440x727/login.gspec",
+              "lineNumber" : 27
+            },
+            "objects" : [ {
+              "name" : "sol-cerceve",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 30
+                },
+                "name" : "inside login-container 100px top, 100px bottom, 981px right, 201px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "100px",
+                  "realDistance" : "100px"
+                }, {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "100px",
+                  "realDistance" : "100px"
+                }, {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "981px",
+                  "realDistance" : "981px"
+                }, {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "201px",
+                  "realDistance" : "201px"
+                } ],
+                "highlight" : [ "sol-cerceve", "login-container" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 31
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 32
+                },
+                "name" : "height 600px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "600px",
+                  "realDistance" : "600px"
+                } ],
+                "highlight" : [ "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 33
+                },
+                "name" : "left-of sag-cerceve 260px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "260px",
+                  "realDistance" : "260px"
+                } ],
+                "highlight" : [ "sol-cerceve", "sag-cerceve" ]
+              } ]
+            }, {
+              "name" : "logo",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 35
+                },
+                "name" : "inside sol-cerceve 0px top, 541px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "541px",
+                  "realDistance" : "541px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "logo", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 36
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 37
+                },
+                "name" : "height 59px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "59px",
+                  "realDistance" : "59px"
+                } ],
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 38
+                },
+                "name" : "image file ../image/foreks_login_logo.png , error 1925px",
+                "highlight" : [ "logo" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 39
+                },
+                "name" : "above sol-baslik 95 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "logo",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-baslik",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "95px",
+                  "realDistance" : "95px"
+                } ],
+                "highlight" : [ "logo", "sol-baslik" ]
+              } ]
+            }, {
+              "name" : "sol-orta",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 41
+                },
+                "name" : "inside sol-cerceve 154px top, 61px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "154px",
+                  "realDistance" : "154px"
+                }, {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "61px",
+                  "realDistance" : "61px"
+                }, {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "sol-orta", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 42
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-orta",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "sol-orta" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 43
+                },
+                "name" : "height 385px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-orta",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-orta",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "385px",
+                  "realDistance" : "385px"
+                } ],
+                "highlight" : [ "sol-orta" ]
+              } ]
+            }, {
+              "name" : "sol-baslik",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 45
+                },
+                "name" : "inside sol-cerceve 154px top, 421px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "154px",
+                  "realDistance" : "154px"
+                }, {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "421px",
+                  "realDistance" : "421px"
+                }, {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "sol-baslik", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 46
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-baslik",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "sol-baslik" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 47
+                },
+                "name" : "height 25px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-baslik",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "25px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "sol-baslik" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 48
+                },
+                "name" : "above orta-yazi 10 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sol-baslik",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "orta-yazi",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "sol-baslik", "orta-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 49
+                },
+                "name" : "text is \"Foreks Trader Web\"",
+                "highlight" : [ "sol-baslik" ]
+              } ]
+            }, {
+              "name" : "orta-yazi",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 51
+                },
+                "name" : "inside sol-cerceve 189px top, 211px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "189px",
+                  "realDistance" : "189px"
+                }, {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "211px",
+                  "realDistance" : "211px"
+                }, {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "orta-yazi", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 52
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "orta-yazi",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "orta-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 53
+                },
+                "name" : "height 200px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "orta-yazi",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "200px",
+                  "realDistance" : "200px"
+                } ],
+                "highlight" : [ "orta-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 54
+                },
+                "name" : "above alt-yazi 20 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "orta-yazi",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "alt-yazi",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "orta-yazi", "alt-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 55
+                },
+                "name" : "text is \"Kurulum yapmadan, her cihazdan finans merkezinize bağlanın.\"",
+                "highlight" : [ "orta-yazi" ]
+              } ]
+            }, {
+              "name" : "alt-yazi",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 57
+                },
+                "name" : "inside sol-cerceve 409px top, 91px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "409px",
+                  "realDistance" : "409px"
+                }, {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "91px",
+                  "realDistance" : "91px"
+                }, {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "alt-yazi", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 58
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "alt-yazi",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "alt-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 59
+                },
+                "name" : "height 100px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "alt-yazi",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "100px",
+                  "realDistance" : "100px"
+                } ],
+                "highlight" : [ "alt-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 60
+                },
+                "name" : "above link 10 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "alt-yazi",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "link",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "alt-yazi", "link" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 61
+                },
+                "name" : "text is \"Foreks Trader Web tamamen web teknolojisi ile geliştirildiği için her türlü tarayıcıya sahip cihazda anında ve sorunsuz bir şekilde çalışmaktadır.\"",
+                "highlight" : [ "alt-yazi" ]
+              } ]
+            }, {
+              "name" : "link",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 63
+                },
+                "name" : "inside sol-cerceve 519px top, 61px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "519px",
+                  "realDistance" : "519px"
+                }, {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "61px",
+                  "realDistance" : "61px"
+                }, {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "link", "sol-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 64
+                },
+                "name" : "width 243px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "link",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "243px",
+                  "realDistance" : "243px"
+                } ],
+                "highlight" : [ "link" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 65
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "link",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "link" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 66
+                },
+                "name" : "below alt-yazi 10px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "link",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "alt-yazi",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "link", "alt-yazi" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 67
+                },
+                "name" : "text is \"Foreks Trader Web Nedir?\"",
+                "highlight" : [ "link" ]
+              } ]
+            }, {
+              "name" : "sag-cerceve",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 69
+                },
+                "name" : "inside login-container 140px top, 140px bottom, 201px right, 704px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "140px",
+                  "realDistance" : "140px"
+                }, {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "140px",
+                  "realDistance" : "140px"
+                }, {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "201px",
+                  "realDistance" : "201px"
+                }, {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-container",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "704px",
+                  "realDistance" : "704px"
+                } ],
+                "highlight" : [ "sag-cerceve", "login-container" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 70
+                },
+                "name" : "width 520px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "520px",
+                  "realDistance" : "520px"
+                } ],
+                "highlight" : [ "sag-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 71
+                },
+                "name" : "height 520px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "520px",
+                  "realDistance" : "520px"
+                } ],
+                "highlight" : [ "sag-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 72
+                },
+                "name" : "right-of sol-cerceve 260px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "260px",
+                  "realDistance" : "260px"
+                } ],
+                "highlight" : [ "sag-cerceve", "sol-cerceve" ]
+              } ]
+            }, {
+              "name" : "login-form",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 74
+                },
+                "name" : "inside sag-cerceve 50px top, 50px bottom, 50px right, 50px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                }, {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                }, {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                }, {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sag-cerceve",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "login-form", "sag-cerceve" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 75
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 76
+                },
+                "name" : "height 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 77
+                },
+                "name" : "right-of sol-cerceve 310px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sol-cerceve",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "310px",
+                  "realDistance" : "310px"
+                } ],
+                "highlight" : [ "login-form", "sol-cerceve" ]
+              } ]
+            }, {
+              "name" : "register",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 79
+                },
+                "name" : "inside login-form 399px top, 1px bottom, 59px right, 59px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "399px",
+                  "realDistance" : "399px"
+                }, {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "59px",
+                  "realDistance" : "59px"
+                }, {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "59px",
+                  "realDistance" : "59px"
+                } ],
+                "highlight" : [ "register", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 80
+                },
+                "name" : "width 302px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "register",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "302px",
+                  "realDistance" : "302px"
+                } ],
+                "highlight" : [ "register" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 81
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "register",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "register",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "register" ]
+              } ]
+            }, {
+              "name" : "sag-baslik",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 83
+                },
+                "name" : "inside login-form 0px top, 390px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "390px",
+                  "realDistance" : "390px"
+                }, {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "sag-baslik", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 84
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sag-baslik",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "sag-baslik" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 85
+                },
+                "name" : "height 30px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sag-baslik",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                } ],
+                "highlight" : [ "sag-baslik" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 86
+                },
+                "name" : "above username-input 56 px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sag-baslik",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "username-input",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "56px",
+                  "realDistance" : "56px"
+                } ],
+                "highlight" : [ "sag-baslik", "username-input" ]
+              } ]
+            }, {
+              "name" : "username-text",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 88
+                },
+                "name" : "width 185px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "username-text",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "185px",
+                  "realDistance" : "185px"
+                } ],
+                "highlight" : [ "username-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 89
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "username-text",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "username-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 90
+                },
+                "name" : "text is \"Kullanıcı Adı / Eposta Adresi\"",
+                "highlight" : [ "username-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 91
+                },
+                "name" : "above password-text 40px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-text",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "password-text",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "40px",
+                  "realDistance" : "40px"
+                } ],
+                "highlight" : [ "username-text", "password-text" ]
+              } ]
+            }, {
+              "name" : "username-input",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 93
+                },
+                "name" : "inside login-form 86px top, 284px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "86px",
+                  "realDistance" : "86px"
+                }, {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "284px",
+                  "realDistance" : "284px"
+                }, {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "username-input", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 94
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "username-input",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "username-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 95
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "username-input",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "username-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 96
+                },
+                "name" : "below sag-baslik 56px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sag-baslik",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "56px",
+                  "realDistance" : "56px"
+                } ],
+                "highlight" : [ "username-input", "sag-baslik" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 97
+                },
+                "name" : "above password-input 10px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "username-input",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "password-input",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "username-input", "password-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 98
+                },
+                "name" : "aligned vertically all password-input",
+                "highlight" : [ "username-input", "password-input" ]
+              } ]
+            }, {
+              "name" : "password-text",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 100
+                },
+                "name" : "width 30px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "password-text",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "30px",
+                  "realDistance" : "30px"
+                } ],
+                "highlight" : [ "password-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 101
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "password-text",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "password-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 102
+                },
+                "name" : "text is \"Şifre\"",
+                "highlight" : [ "password-text" ]
+              } ]
+            }, {
+              "name" : "password-input",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 104
+                },
+                "name" : "inside login-form 146px top, 224px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "146px",
+                  "realDistance" : "146px"
+                }, {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "224px",
+                  "realDistance" : "224px"
+                }, {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "password-input", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 105
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "password-input",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "password-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 106
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "password-input",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "password-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 107
+                },
+                "name" : "below username-input 5 to 10px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "username-input",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "5 to 10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "password-input", "username-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 108
+                },
+                "name" : "above benihatirla-password 10 to 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "password-input",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "10 to 20px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "password-input", "benihatirla-password" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 109
+                },
+                "name" : "aligned vertically all username-input",
+                "highlight" : [ "password-input", "username-input" ]
+              } ]
+            }, {
+              "name" : "benihatirla-password",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 111
+                },
+                "name" : "inside login-form 211px top, 154px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "211px",
+                  "realDistance" : "211px"
+                }, {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "154px",
+                  "realDistance" : "154px"
+                }, {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "benihatirla-password", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 112
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "benihatirla-password" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 113
+                },
+                "name" : "height 55px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "55px",
+                  "realDistance" : "55px"
+                } ],
+                "highlight" : [ "benihatirla-password" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 114
+                },
+                "name" : "below password-input 10 to 15px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "benihatirla-password",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "password-input",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "10 to 15px",
+                  "realDistance" : "15px"
+                } ],
+                "highlight" : [ "benihatirla-password", "password-input" ]
+              } ]
+            }, {
+              "name" : "beni-hatirla",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 116
+                },
+                "name" : "inside login-form 226px top, 169px bottom, 282px right, 10px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "226px",
+                  "realDistance" : "226px"
+                }, {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "169px",
+                  "realDistance" : "169px"
+                }, {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "282px",
+                  "realDistance" : "282px"
+                }, {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "10px",
+                  "realDistance" : "10px"
+                } ],
+                "highlight" : [ "beni-hatirla", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 117
+                },
+                "name" : "width 128px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "128px",
+                  "realDistance" : "128px"
+                } ],
+                "highlight" : [ "beni-hatirla" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 118
+                },
+                "name" : "height 25px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "25px",
+                  "realDistance" : "25px"
+                } ],
+                "highlight" : [ "beni-hatirla" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 119
+                },
+                "name" : "left-of sifremi-unuttum 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "beni-hatirla", "sifremi-unuttum" ]
+              } ]
+            }, {
+              "name" : "sifremi-unuttum",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 121
+                },
+                "name" : "inside login-form 228px top, 172px bottom, 153px right, 156px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "228px",
+                  "realDistance" : "228px"
+                }, {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "172px",
+                  "realDistance" : "172px"
+                }, {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "153px",
+                  "realDistance" : "153px"
+                }, {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "156px",
+                  "realDistance" : "156px"
+                } ],
+                "highlight" : [ "sifremi-unuttum", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 122
+                },
+                "name" : "width 111px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "111px",
+                  "realDistance" : "111px"
+                } ],
+                "highlight" : [ "sifremi-unuttum" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 123
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "sifremi-unuttum" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 124
+                },
+                "name" : "right-of beni-hatirla 18px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "beni-hatirla",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "18px",
+                  "realDistance" : "18px"
+                } ],
+                "highlight" : [ "sifremi-unuttum", "beni-hatirla" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 125
+                },
+                "name" : "left-of sifre-degistir 21px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "21px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "sifremi-unuttum", "sifre-degistir" ]
+              } ]
+            }, {
+              "name" : "sifre-degistir",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 127
+                },
+                "name" : "inside login-form 228px top, 172px bottom, 11px right, 288px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "228px",
+                  "realDistance" : "228px"
+                }, {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "172px",
+                  "realDistance" : "172px"
+                }, {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "11px",
+                  "realDistance" : "11px"
+                }, {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "288px",
+                  "realDistance" : "288px"
+                } ],
+                "highlight" : [ "sifre-degistir", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 128
+                },
+                "name" : "width 121px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "121px",
+                  "realDistance" : "121px"
+                } ],
+                "highlight" : [ "sifre-degistir" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 129
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "sifre-degistir" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 130
+                },
+                "name" : "right-of sifremi-unuttum 21px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "sifre-degistir",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "sifremi-unuttum",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "21px",
+                  "realDistance" : "21px"
+                } ],
+                "highlight" : [ "sifre-degistir", "sifremi-unuttum" ]
+              } ]
+            }, {
+              "name" : "giris-btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 132
+                },
+                "name" : "inside login-form 265px top, 105px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "265px",
+                  "realDistance" : "265px"
+                }, {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "105px",
+                  "realDistance" : "105px"
+                }, {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "giris-btn", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 133
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "giris-btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "giris-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 134
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "giris-btn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "giris-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 135
+                },
+                "name" : "above gizlilik-btn 5 to 10px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "5 to 10px",
+                  "realDistance" : "9px"
+                } ],
+                "highlight" : [ "giris-btn", "gizlilik-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 136
+                },
+                "name" : "below password-input 69px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "giris-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "password-input",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "69px",
+                  "realDistance" : "69px"
+                } ],
+                "highlight" : [ "giris-btn", "password-input" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 137
+                },
+                "name" : "css background-color is  \"rgba(240, 197, 41, 1)\"",
+                "highlight" : [ "giris-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 138
+                },
+                "name" : "aligned vertically all password-input",
+                "highlight" : [ "giris-btn", "password-input" ]
+              } ]
+            }, {
+              "name" : "gizlilik-btn",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 140
+                },
+                "name" : "inside login-form 324px top, 46px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "324px",
+                  "realDistance" : "324px"
+                }, {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "46px",
+                  "realDistance" : "46px"
+                }, {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "gizlilik-btn", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 141
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "gizlilik-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 142
+                },
+                "name" : "height 50px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "gizlilik-btn",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "50px",
+                  "realDistance" : "50px"
+                } ],
+                "highlight" : [ "gizlilik-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 143
+                },
+                "name" : "css background-color is \"rgba(240, 240, 240, 1)\"",
+                "highlight" : [ "gizlilik-btn" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 144
+                },
+                "name" : "aligned vertically all giris-btn",
+                "highlight" : [ "gizlilik-btn", "giris-btn" ]
+              } ]
+            }, {
+              "name" : "kaydol-text",
+              "specs" : [ {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 146
+                },
+                "name" : "inside login-form 399px top, 1px bottom, 0px right, 0px left",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "top"
+                  },
+                  "expectedDistance" : "399px",
+                  "realDistance" : "399px"
+                }, {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "bottom"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "1px",
+                  "realDistance" : "1px"
+                }, {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "right"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                }, {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "login-form",
+                    "edge" : "left"
+                  },
+                  "expectedDistance" : "0px",
+                  "realDistance" : "0px"
+                } ],
+                "highlight" : [ "kaydol-text", "login-form" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 147
+                },
+                "name" : "width 420px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "left"
+                  },
+                  "to" : {
+                    "object" : "kaydol-text",
+                    "edge" : "right"
+                  },
+                  "expectedDistance" : "420px",
+                  "realDistance" : "420px"
+                } ],
+                "highlight" : [ "kaydol-text" ]
+              }, {
+                "status" : "info",
+                "place" : {
+                  "filePath" : "1440x727/login.gspec",
+                  "lineNumber" : 148
+                },
+                "name" : "height 20px",
+                "meta" : [ {
+                  "from" : {
+                    "object" : "kaydol-text",
+                    "edge" : "top"
+                  },
+                  "to" : {
+                    "object" : "kaydol-text",
+                    "edge" : "bottom"
+                  },
+                  "expectedDistance" : "20px",
+                  "realDistance" : "20px"
+                } ],
+                "highlight" : [ "kaydol-text" ]
+              } ]
+            } ]
+          } ],
+          "objects" : {
+            "gizlilik-btn" : {
+              "area" : [ 754, 514, 420, 50 ]
+            },
+            "login-container" : {
+              "area" : [ 0, 0, 1425, 800 ]
+            },
+            "login-form" : {
+              "area" : [ 754, 190, 420, 420 ]
+            },
+            "sag-cerceve" : {
+              "area" : [ 704, 140, 520, 520 ]
+            },
+            "link" : {
+              "area" : [ 201, 619, 243, 20 ]
+            },
+            "giris-btn" : {
+              "area" : [ 754, 455, 420, 50 ]
+            },
+            "orta-yazi" : {
+              "area" : [ 201, 289, 243, 200 ]
+            },
+            "sag-baslik" : {
+              "area" : [ 754, 190, 420, 30 ]
+            },
+            "benihatirla-password" : {
+              "area" : [ 754, 401, 420, 55 ]
+            },
+            "alt-yazi" : {
+              "area" : [ 201, 509, 243, 100 ]
+            },
+            "username-text" : {
+              "area" : [ 779, 290, 185, 20 ]
+            },
+            "username-input" : {
+              "area" : [ 754, 276, 420, 50 ]
+            },
+            "sifremi-unuttum" : {
+              "area" : [ 910, 418, 111, 20 ]
+            },
+            "kaydol-text" : {
+              "area" : [ 754, 589, 420, 20 ]
+            },
+            "password-text" : {
+              "area" : [ 779, 350, 30, 20 ]
+            },
+            "logo" : {
+              "area" : [ 201, 100, 243, 59 ]
+            },
+            "sol-orta" : {
+              "area" : [ 201, 254, 243, 385 ]
+            },
+            "password-input" : {
+              "area" : [ 754, 336, 420, 50 ]
+            },
+            "beni-hatirla" : {
+              "area" : [ 764, 416, 128, 25 ]
+            },
+            "sol-cerceve" : {
+              "area" : [ 201, 100, 243, 600 ]
+            },
+            "sifre-degistir" : {
+              "area" : [ 1042, 418, 121, 20 ]
+            },
+            "sol-baslik" : {
+              "area" : [ 201, 254, 243, 25 ]
+            },
+            "register" : {
+              "area" : [ 813, 589, 302, 20 ]
+            }
+          },
+          "screenshot" : "layout-8-screenshot.png",
+          "type" : "layout"
+        } ],
+        "time" : 1655213206721,
+        "type" : "node"
+      }, {
+        "name" : "wait 40s",
+        "status" : "info",
+        "time" : 1655213212156,
+        "type" : "node"
+      } ],
+      "time" : 1655213121894,
+      "type" : "node"
+    } ]
+  }
+}

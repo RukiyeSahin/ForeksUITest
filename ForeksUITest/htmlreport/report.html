@@ -1,0 +1,201 @@
+<html>
+    <head>
+        <title>Galen Reports</title>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" type="text/css" href="galen-report.css"></link>
+        <script src="vue.js"></script>
+        <script src="galen-report.js"></script>
+        <script>
+        var REPORT_DATA = {
+  "tests" : [ {
+    "name" : "1440x821 Register test desktop",
+    "startedAt" : 1655212528434,
+    "endedAt" : 1655212604307,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 89,
+      "errors" : 2,
+      "warnings" : 0,
+      "total" : 91
+    },
+    "testId" : "1-1440x821-register-test-desktop",
+    "duration" : 75873,
+    "failed" : true
+  }, {
+    "name" : "1440x821 Login test desktop",
+    "startedAt" : 1655212604307,
+    "endedAt" : 1655212737400,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 101,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 101
+    },
+    "testId" : "2-1440x821-login-test-desktop",
+    "duration" : 133093,
+    "failed" : false
+  }, {
+    "name" : "1440x821 Homepage test desktop",
+    "startedAt" : 1655212737400,
+    "endedAt" : 1655213050395,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 463,
+      "errors" : 11,
+      "warnings" : 0,
+      "total" : 474
+    },
+    "testId" : "3-1440x821-homepage-test-desktop",
+    "duration" : 312995,
+    "failed" : true
+  }, {
+    "name" : "1440x727 Register test  desktop",
+    "startedAt" : 1655213050395,
+    "endedAt" : 1655213121894,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 90,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 90
+    },
+    "testId" : "4-1440x727-register-test-desktop",
+    "duration" : 71499,
+    "failed" : false
+  }, {
+    "name" : "1440x727 Login test desktop",
+    "startedAt" : 1655213121894,
+    "endedAt" : 1655213252476,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 100,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 100
+    },
+    "testId" : "5-1440x727-login-test-desktop",
+    "duration" : 130582,
+    "failed" : false
+  }, {
+    "name" : "1440x727 Homepage test desktop",
+    "startedAt" : 1655213252476,
+    "endedAt" : 1655213566086,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 458,
+      "errors" : 15,
+      "warnings" : 0,
+      "total" : 473
+    },
+    "testId" : "6-1440x727-homepage-test-desktop",
+    "duration" : 313610,
+    "failed" : true
+  }, {
+    "name" : "1368x721 Register test desktop",
+    "startedAt" : 1655213566086,
+    "endedAt" : 1655213637059,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 109,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 109
+    },
+    "testId" : "7-1368x721-register-test-desktop",
+    "duration" : 70973,
+    "failed" : false
+  }, {
+    "name" : "1368x721 Login test desktop",
+    "startedAt" : 1655213637059,
+    "endedAt" : 1655213801537,
+    "failed" : false,
+    "statistic" : {
+      "passed" : 101,
+      "errors" : 0,
+      "warnings" : 0,
+      "total" : 101
+    },
+    "testId" : "8-1368x721-login-test-desktop",
+    "duration" : 164478,
+    "failed" : false
+  }, {
+    "name" : "1368x721 Homepage test desktop",
+    "startedAt" : 1655213801537,
+    "endedAt" : 1655214128504,
+    "failed" : true,
+    "statistic" : {
+      "passed" : 454,
+      "errors" : 13,
+      "warnings" : 0,
+      "total" : 467
+    },
+    "testId" : "9-1368x721-homepage-test-desktop",
+    "duration" : 326967,
+    "failed" : true
+  } ]
+};
+        </script>
+
+    </head>
+    <body>
+        <div id="app">
+            <div class="overview-table-wrapper">
+                <div v-if="groups.length > 0">
+                    <h4>Groups</h4>
+                    <ul class="test-groups">
+                        <li>
+                            <span class="link" v-on:click="toggleAllGroups()">All</label>
+                        </li>
+                        <li v-for="(group, groupIndex) in groups">
+                            <span v-if="selectedGroup !== group.name" class="link" v-on:click="toggleGroup(group.name)">{{group.name}}</span>
+                            <span v-else>{{group.name}}</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <table class="overview-table">
+                    <thead>
+                        <tr>
+                            <th v-for="column in tableColumns" v-bind:class="{'sorted-column': sorting.columnField === column.field}">
+                                <span class="link" v-on:click="sortTable(column)">{{column.name}}</span>
+                                <span class="sorting-icon"
+                                    v-if="sorting.columnField === column.field"
+                                    v-bind:class="[sorting.order === 1 ? 'sorting-down' : 'sorting-up']"></span>
+                            </th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr v-for="test in tests" v-if="test.show">
+                            <td v-for="column in tableColumns" v-bind:class="['cell-' + column.field]">
+                                <div v-if="column.field === 'name'">
+                                    <a class="link" v-bind:href="test.testId + '.html'">{{test.name.value}}</a>
+                                </div>
+                                <div v-else>{{test[column.field].value}}</div>
+                            </td>
+                            <td>
+                                <table class="progress-bar">
+                                    <tbody>
+                                        <tr>
+                                            <td class="bar-passed"
+                                                v-bind:style="{width: test.progress.passed + '%'}"
+                                                v-bind:class="{hidden: test.progress.passed < 0.5}"></td>
+                                            <td class="bar-failed"
+                                                v-bind:style="{width: test.progress.failed + '%'}"
+                                                v-bind:class="{hidden: test.progress.failed < 0.5}"></td>
+                                            <td class="bar-warning"
+                                                v-bind:style="{width: test.progress.warning + '%'}"
+                                                v-bind:class="{hidden: test.progress.warning < 0.5}"></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <script>renderTestOverviewReport(REPORT_DATA);</script>
+    </body>
+</html>
